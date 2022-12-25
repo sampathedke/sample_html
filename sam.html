@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<!--This is comment line-->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1> hello world !!!</h1>
+    <!-- Welcome SAM -->
+    <h2>Spike</h2>
+    <p>spike a fictional charcter</p>
+
+    <!-- shortcut for commenting the text use " ctrl + / " -->
+
+
+    <img src="https://comicvine.gamespot.com/a/uploads/scale_medium/0/77/1897456-spike.jpg" alt="spike" width="200"
+        height="300"><br>
+
+    <hr> <!-- for horizontal line use <hr> tag-->
+
+    <a href="https://comicvine.gamespot.com/spike/4005-7883/" target="blank">Goes to spike website</a> <br>
+    <a href="https://google.com" target="_blank">go to google</a><br>
+    <a href="/sam1.html" target="_blank">go to sam1</a>
+
+    <!--pressing alt key for multiple curser-->
+
+    <!--target attribute used to open link in another tab-->
+
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda magnam earum fugiat voluptates quo soluta
+        omnis aut minima, error facere voluptate provident ratione porro temporibus labore non libero dolore delectus
+        explicabo deserunt distinctio quae. Deserunt omnis adipisci eveniet non quas beatae delectus ratione?
+    </p>
+    <!--USE Lorem(value) for dummy text of n lines
+    ex: Lorem40 -->
+    <!--use toggle word wrap or alt + t to remove horizontal scroll bar try for above dummy txt-->
+
+    <!-- To insert n paragraph use p*n  n=value-->
+    <p>the strong <strong>tag make bold </strong> for txt</p>
+    <p>the emphasis <em>tag make change in font style</em> in txt</p>
+
+    <p>this is new paragraph</p>
+
+    <!--ctrl + enter  to jump into new line-->
+
+    <img src="https://unsplash.it/200/300/?random" alt="remote image">
+
+    <!-- unsplash source web site to show random images -->
+
+    <h2>lists and tables</h2>
+
+    <ul type="disc">
+        <li>this is first line</li>
+        <li>this is second line</li>
+        <ul>
+            <li>this is inner list1</li>
+            <li>this is inner list2</li>
+        </ul>
+        <li>this is third line</li>
+    </ul>
+
+    <ol type="a">
+        <li>this is ordered first line</li>
+        <li>this is ordered second line</li>
+        <ol>
+            <li>this is inner lst1</li>
+            <li>this is inner lst2</li>
+        </ol>
+        <li>this is ordered third line</li>
+    </ol>
+
+    <h3> HTML Tables</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Emp ID</th>
+                <th>Profession</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>sam</td>
+                <td>562</td>
+                <td>game designer</td>
+            </tr>
+            <tr>
+                <td>spike</td>
+                <td>543</td>
+                <td>programmer</td>
+            </tr>
+            <tr>
+                <td>samuel</td>
+                <td>554</td>
+                <td>web developer</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h3>Forms Tutorial</h3>
+
+    <!-- alt + down (or) up arrow is used move the content up or down without copy and paste -->
+
+    <form action="backend.php">
+
+        <div><label for="name">Name:</label><input type="text" name="myname" id="name" placeholder="name" required>
+        </div>
+        <br>
+
+        <div>Role:<input type="text" name="myrole" placeholder="role"></div>
+        <br>
+
+        <div>Email:<input type="email" name="myemail"></div>
+        <br>
+
+        <div>Password:<input type="password" name="mypassword"></div>
+        <br>
+
+        <div>Date:<input type="date" name="mydate"></div>
+        <br>
+        <label for="txt">Write something</label>
+        <div><textarea name="mytxt" cols="50" rows="10" id="txt"></textarea></div>
+        <br>
+
+        <div>Elgibility:<input type="checkbox" name="myelgibility" checked></div>
+        <br>
+
+        <div>Gender: Male<input type="radio" value="male" id="male" name="mygender">
+            female<input type="radio" value="female" id="female" name="mygender">
+            others<input type="radio" value="other" id="others" name="mygender"></div>
+        <br>
+        
+        <!-- The legend element acts as a caption for the content in the fieldset element. It gives users context about what they should enter into that part of the form-->
+
+
+        <!-- The fieldset element is used to group related inputs and labels together in a web form. fieldset elements are block-level elements, meaning that they appear on a new line. -->
+
+
+        <div>
+            <fieldset>
+                <legend>Is your cat an indoor or outdoor cat?</legend>
+                <label><input id="indoor" type="radio" name="indoor-outdoor" value="indoor"> Indoor</label>
+                <label><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Outdoor</label>
+              </fieldset>
+        </div>
+        <br>
+        <div>
+            <label for="car"> Cars</label>
+            <select name="mycar" id="car">
+                <option value="swft">swift</option>
+                <option value="Hyn">hyundai</option>
+            </select>
+        </div><br>
+        <div><input type="submit" value="submit">
+            <input type="reset" value="reset">
+            <button>submit</button>
+        </div>
+    </form>
+<section>
+    <h3>Inline and Blocks</h3>
+    <h4>Blocks</h4>
+    <p style="border: 2px solid red">this is a para</p>
+    <p style="border: 2px solid blue">this is also a para</p>
+    <li style="border: 2px solid blue">this is also a para</li><br>
+    <div style="border: 2px solid rebeccapurple">this is also a para</div>
+    
+    <h4>Inline</h4>
+    <span style="border:2px solid red">this is a inline</span>
+    <span style="border:2px solid blue">this is also inline</span>
+    <em style="border:2px solid rgb(9, 255, 0)">this is also inline</em>
+    <a style="border:2px solid royalblue">this is also inline</a>
+    <img style="border: 2px solid royalblue" alt="this is also a inline">
+    
+</section>
+<h3>Ids and Classes</h3>
+<div id="main" class="redBg BlackBoarder">this is main</div>
+<span class="redBG"></span>
+<!-- using Emmet -->
+<!-- . is for class and # is for id  -->
+<!-- ex for class=span.redBg and for id=span#main -->
+<span id="mainsp"></span>
+<!-- for creating multiple elements using emmet -->
+<!-- span.class1.class2.class3 +<enter> -->
+<span class="class1 class2 class3"></span>
+<h3>HTML entities</h3>
+<div>
+    <p>this is para &nbsp; &nbsp; graph</p>
+    <p>this is para &#8203; </p>    
+    <p>this is para &lt;p&gt; </p>    
+    <p>this is para &copy; </p>    
+    <p>this is para &pound; </p>    
+    <p>this is para &parsim; </p>    
+
+
+</div>
+
+
+</body>
+
+</html>

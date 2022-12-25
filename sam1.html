@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CSS</title>
+    <link rel="stylesheet" href="sam.css">
+    <style>
+        /* internal css */
+        p0 {
+            color: aqua;
+            background-color: bisque;
+        }
+
+        /* element selector */
+        pa {
+            color: red;
+        }
+
+        /* id selector */
+        #second {
+            color: deepskyblue;
+            background-color: antiquewhite;
+        }
+
+        /* class selector */
+        .cls_para {
+            color: chartreuse;
+            background-color: aliceblue;
+        }
+
+        /* grouping selector */
+        span,
+        footer {
+            color: cadetblue;
+        }
+    </style>
+</head>
+
+<body>
+    <fieldset>
+        <legend>
+            <h3>internal CSS</h3>
+        </legend>
+        <p0>this is sam web page</p0>
+    </fieldset>
+    <fieldset>
+        <legend>
+            <h3>inline css</h3>
+        </legend>
+        <p1 style="color:red; background:yellow">this is inline css</p1>
+    </fieldset>
+    <Fieldset>
+        <legend>
+            <h3>External CSS</h3>
+        </legend>
+        <p2>This is external css </p2>
+    </Fieldset>
+
+    <h2>CSS selectors</h2>
+    <fieldset>
+        <h3>Element selectors</h3>
+        <div>
+            <pa>This is para to know about element selectors</pa><br>
+            <pa>This is sec_para to know about element selectors</pa><br>
+            <pa>This is rhirs_para to know about element selectors</pa><br>
+
+        </div>
+    </fieldset>
+
+    <fieldset>
+        <h3>Id selectors</h3>
+        <pb id="second">
+            this para describes about id selectors
+        </pb>
+    </fieldset>
+
+    <fieldset>
+        <h3>Class selectors</h3>
+        <pc class="cls_para">This para describes about the class selector</pc>
+    </fieldset>
+
+    <fieldset>
+        <h3>grouping selector</h3>
+        <span>
+            tho sis span
+        </span>
+        <footer>this si footer</footer>
+    </fieldset>
+</body>
+
+</html>
